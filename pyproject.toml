@@ -1,0 +1,17 @@
+[project]
+name = "ntust-114-2-security-mid"
+version = "0.1.0"
+description = "Differentially Private Synthetic Data via PrivBayes — NTUST Security Mid-term Project"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "datasynthesizer>=0.1.13",
+    "pandas>=1.5,<2.3",
+    "numpy>=1.24,<2.0",
+    "matplotlib>=3.7",
+    "seaborn>=0.13",
+    "scikit-learn>=1.3",
+    "pandas-stubs~=2.2.3",
+]
+
+[tool.uv]
+package = false
