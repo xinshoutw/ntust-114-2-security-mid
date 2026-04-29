@@ -1,0 +1,137 @@
+[
+  {
+    "epsilon": 0.1,
+    "seed": 42,
+    "time_describe_sec": 21.712,
+    "time_generate_sec": 3.253,
+    "time_total_sec": 24.965,
+    "synth_path": "data/synthetic/synthetic_eps0.1_seed42.csv",
+    "desc_path": "results/metrics/description_eps0.1_seed42.json"
+  },
+  {
+    "epsilon": 0.1,
+    "seed": 123,
+    "time_describe_sec": 22.097,
+    "time_generate_sec": 1.38,
+    "time_total_sec": 23.477,
+    "synth_path": "data/synthetic/synthetic_eps0.1_seed123.csv",
+    "desc_path": "results/metrics/description_eps0.1_seed123.json"
+  },
+  {
+    "epsilon": 0.1,
+    "seed": 456,
+    "time_describe_sec": 22.837,
+    "time_generate_sec": 1.967,
+    "time_total_sec": 24.804,
+    "synth_path": "data/synthetic/synthetic_eps0.1_seed456.csv",
+    "desc_path": "results/metrics/description_eps0.1_seed456.json"
+  },
+  {
+    "epsilon": 0.5,
+    "seed": 42,
+    "time_describe_sec": 22.879,
+    "time_generate_sec": 2.35,
+    "time_total_sec": 25.229,
+    "synth_path": "data/synthetic/synthetic_eps0.5_seed42.csv",
+    "desc_path": "results/metrics/description_eps0.5_seed42.json"
+  },
+  {
+    "epsilon": 0.5,
+    "seed": 123,
+    "time_describe_sec": 27.255,
+    "time_generate_sec": 2.852,
+    "time_total_sec": 30.107,
+    "synth_path": "data/synthetic/synthetic_eps0.5_seed123.csv",
+    "desc_path": "results/metrics/description_eps0.5_seed123.json"
+  },
+  {
+    "epsilon": 0.5,
+    "seed": 456,
+    "time_describe_sec": 21.828,
+    "time_generate_sec": 1.851,
+    "time_total_sec": 23.679,
+    "synth_path": "data/synthetic/synthetic_eps0.5_seed456.csv",
+    "desc_path": "results/metrics/description_eps0.5_seed456.json"
+  },
+  {
+    "epsilon": 1.0,
+    "seed": 42,
+    "time_describe_sec": 22.155,
+    "time_generate_sec": 3.082,
+    "time_total_sec": 25.237,
+    "synth_path": "data/synthetic/synthetic_eps1.0_seed42.csv",
+    "desc_path": "results/metrics/description_eps1.0_seed42.json"
+  },
+  {
+    "epsilon": 1.0,
+    "seed": 123,
+    "time_describe_sec": 21.991,
+    "time_generate_sec": 2.352,
+    "time_total_sec": 24.343,
+    "synth_path": "data/synthetic/synthetic_eps1.0_seed123.csv",
+    "desc_path": "results/metrics/description_eps1.0_seed123.json"
+  },
+  {
+    "epsilon": 1.0,
+    "seed": 456,
+    "time_describe_sec": 22.763,
+    "time_generate_sec": 3.288,
+    "time_total_sec": 26.051,
+    "synth_path": "data/synthetic/synthetic_eps1.0_seed456.csv",
+    "desc_path": "results/metrics/description_eps1.0_seed456.json"
+  },
+  {
+    "epsilon": 2.0,
+    "seed": 42,
+    "time_describe_sec": 22.661,
+    "time_generate_sec": 2.559,
+    "time_total_sec": 25.22,
+    "synth_path": "data/synthetic/synthetic_eps2.0_seed42.csv",
+    "desc_path": "results/metrics/description_eps2.0_seed42.json"
+  },
+  {
+    "epsilon": 2.0,
+    "seed": 123,
+    "time_describe_sec": 21.877,
+    "time_generate_sec": 2.519,
+    "time_total_sec": 24.396,
+    "synth_path": "data/synthetic/synthetic_eps2.0_seed123.csv",
+    "desc_path": "results/metrics/description_eps2.0_seed123.json"
+  },
+  {
+    "epsilon": 2.0,
+    "seed": 456,
+    "time_describe_sec": 22.25,
+    "time_generate_sec": 2.693,
+    "time_total_sec": 24.944,
+    "synth_path": "data/synthetic/synthetic_eps2.0_seed456.csv",
+    "desc_path": "results/metrics/description_eps2.0_seed456.json"
+  },
+  {
+    "epsilon": 4.0,
+    "seed": 42,
+    "time_describe_sec": 21.368,
+    "time_generate_sec": 2.265,
+    "time_total_sec": 23.633,
+    "synth_path": "data/synthetic/synthetic_eps4.0_seed42.csv",
+    "desc_path": "results/metrics/description_eps4.0_seed42.json"
+  },
+  {
+    "epsilon": 4.0,
+    "seed": 123,
+    "time_describe_sec": 21.61,
+    "time_generate_sec": 2.402,
+    "time_total_sec": 24.011,
+    "synth_path": "data/synthetic/synthetic_eps4.0_seed123.csv",
+    "desc_path": "results/metrics/description_eps4.0_seed123.json"
+  },
+  {
+    "epsilon": 4.0,
+    "seed": 456,
+    "time_describe_sec": 21.706,
+    "time_generate_sec": 2.595,
+    "time_total_sec": 24.301,
+    "synth_path": "data/synthetic/synthetic_eps4.0_seed456.csv",
+    "desc_path": "results/metrics/description_eps4.0_seed456.json"
+  }
+]
