@@ -1,0 +1,9 @@
+aspect,HW2 (DP-SGD),Mid (PrivBayes)
+DP 套用階段,training-time,data publishing
+保護對象,model weights,released dataset
+輸出形式,PyTorch state_dict,synthetic CSV
+隱私預算消耗,每 epoch 累加 (RDP accountant),一次性 (拆 BN 結構 + CPT)
+可重複查詢,否,是
+資料變動成本,重訓整個模型,重生合成 CSV
+資料領域,MNIST 影像,UCI Adult 表格
+典型 ε 範圍,0.5–8,0.1–4

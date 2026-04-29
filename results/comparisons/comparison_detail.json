@@ -1,0 +1,154 @@
+{
+  "hw1_kanon": [
+    {
+      "method": "k-anonymity",
+      "param_name": "k",
+      "param_value": 2,
+      "avg_TVD": 0.0654,
+      "corr_frobenius_diff": 0.2515,
+      "TSTR_LR_acc": 0.8168,
+      "TSTR_LR_f1": 0.5488,
+      "TSTR_RF_acc": 0.8689,
+      "TSTR_RF_f1": 0.7116,
+      "TRTR_LR_acc": 0.8163,
+      "TRTR_RF_acc": 0.8578,
+      "extra": {
+        "num_classes": 3197,
+        "C_DM": 3115208,
+        "C_AVG": 4.7172,
+        "min_size": 2,
+        "max_size": 484,
+        "avg_size": 9.43
+      }
+    },
+    {
+      "method": "k-anonymity",
+      "param_name": "k",
+      "param_value": 25,
+      "avg_TVD": 0.0772,
+      "corr_frobenius_diff": 0.3032,
+      "TSTR_LR_acc": 0.8167,
+      "TSTR_LR_f1": 0.5522,
+      "TSTR_RF_acc": 0.8565,
+      "TSTR_RF_f1": 0.6707,
+      "TRTR_LR_acc": 0.8163,
+      "TRTR_RF_acc": 0.8578,
+      "extra": {
+        "num_classes": 509,
+        "C_DM": 3587426,
+        "C_AVG": 2.3703,
+        "min_size": 25,
+        "max_size": 484,
+        "avg_size": 59.26
+      }
+    },
+    {
+      "method": "k-anonymity",
+      "param_name": "k",
+      "param_value": 100,
+      "avg_TVD": 0.085,
+      "corr_frobenius_diff": 0.3189,
+      "TSTR_LR_acc": 0.8172,
+      "TSTR_LR_f1": 0.5561,
+      "TSTR_RF_acc": 0.8533,
+      "TSTR_RF_f1": 0.675,
+      "TRTR_LR_acc": 0.8163,
+      "TRTR_RF_acc": 0.8578,
+      "extra": {
+        "num_classes": 182,
+        "C_DM": 5921564,
+        "C_AVG": 1.6573,
+        "min_size": 100,
+        "max_size": 484,
+        "avg_size": 165.73
+      }
+    }
+  ],
+  "privbayes": [
+    {
+      "method": "PrivBayes",
+      "param_name": "ε",
+      "param_value": 0.1,
+      "avg_TVD": 0.4307,
+      "corr_frobenius_diff": 1.2872,
+      "TSTR_LR_acc": 0.7507,
+      "TSTR_LR_f1": 0.021,
+      "TSTR_RF_acc": 0.7349,
+      "TSTR_RF_f1": 0.3925,
+      "TRTR_LR_acc": 0.8163,
+      "TRTR_RF_acc": 0.8578,
+      "extra": {
+        "avg_TVD_std": 0.0133,
+        "TSTR_RF_acc_std": 0.0842
+      }
+    },
+    {
+      "method": "PrivBayes",
+      "param_name": "ε",
+      "param_value": 0.5,
+      "avg_TVD": 0.1514,
+      "corr_frobenius_diff": 0.9753,
+      "TSTR_LR_acc": 0.7589,
+      "TSTR_LR_f1": 0.1513,
+      "TSTR_RF_acc": 0.805,
+      "TSTR_RF_f1": 0.5469,
+      "TRTR_LR_acc": 0.8163,
+      "TRTR_RF_acc": 0.8578,
+      "extra": {
+        "avg_TVD_std": 0.0082,
+        "TSTR_RF_acc_std": 0.0204
+      }
+    },
+    {
+      "method": "PrivBayes",
+      "param_name": "ε",
+      "param_value": 1.0,
+      "avg_TVD": 0.1336,
+      "corr_frobenius_diff": 1.1996,
+      "TSTR_LR_acc": 0.7525,
+      "TSTR_LR_f1": 0.1918,
+      "TSTR_RF_acc": 0.7798,
+      "TSTR_RF_f1": 0.4117,
+      "TRTR_LR_acc": 0.8163,
+      "TRTR_RF_acc": 0.8578,
+      "extra": {
+        "avg_TVD_std": 0.0328,
+        "TSTR_RF_acc_std": 0.0371
+      }
+    },
+    {
+      "method": "PrivBayes",
+      "param_name": "ε",
+      "param_value": 2.0,
+      "avg_TVD": 0.0785,
+      "corr_frobenius_diff": 0.9174,
+      "TSTR_LR_acc": 0.7656,
+      "TSTR_LR_f1": 0.2134,
+      "TSTR_RF_acc": 0.8059,
+      "TSTR_RF_f1": 0.5882,
+      "TRTR_LR_acc": 0.8163,
+      "TRTR_RF_acc": 0.8578,
+      "extra": {
+        "avg_TVD_std": 0.009,
+        "TSTR_RF_acc_std": 0.0283
+      }
+    },
+    {
+      "method": "PrivBayes",
+      "param_name": "ε",
+      "param_value": 4.0,
+      "avg_TVD": 0.0524,
+      "corr_frobenius_diff": 0.7217,
+      "TSTR_LR_acc": 0.7694,
+      "TSTR_LR_f1": 0.2251,
+      "TSTR_RF_acc": 0.8012,
+      "TSTR_RF_f1": 0.5364,
+      "TRTR_LR_acc": 0.8163,
+      "TRTR_RF_acc": 0.8578,
+      "extra": {
+        "avg_TVD_std": 0.0021,
+        "TSTR_RF_acc_std": 0.0143
+      }
+    }
+  ]
+}
